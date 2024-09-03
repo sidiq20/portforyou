@@ -1,7 +1,8 @@
+import images from './imageImports';
 const logotext = "FKAYY";
 const meta = {
     title: "FKAYY DESIGNES",
-    description: "I’m Faruk Olaosde Graphic Designer _ Full stack devloper,currently working in Lagos",
+    description: "I’m Faruk Olaosde Graphic Designer _ A Graphic Desiner,currently working in Lagos",
 };
 
 const introdata = {
@@ -13,8 +14,8 @@ const introdata = {
         fourth: "I revive depixelated logos and flyers",
 
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "The art and practice of planning and projecting visual content to communicate ideas and messages through typography, imagery, color, and layout.",
+    your_img_url: images['fkayy.jpg'],
 };
 
 const dataabout = {
@@ -153,7 +154,9 @@ const socialprofils = {
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
-    instagram: "https://instagram.com",
+    instagram: "https://www.instagram.com/fkayythedesigner/",
+    twitch: "https://twitch.com",
+
 };
 export {
     meta,
