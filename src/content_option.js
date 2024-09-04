@@ -1,5 +1,5 @@
 import images from './imageImports';
-const logotext = "FKAYY";
+const logotext = "FKAYY DESIGNS";
 const meta = {
     title: "FKAYY DESIGNES",
     description: "I’m Faruk Olaosde Graphic Designer _ A Graphic Desiner,currently working in Lagos",
@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "about about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am a graphic designer with a Law degree from Lagos State University. I specialize in creating unique logos, modern websites, and captivating visuals that communicate ideas effectively. I bring a blend of creativity and strategic thinking to every project, helping brands stand out.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -53,7 +53,7 @@ const skills = [{
     },
     {
         name: "Figma",
-        value: 50,
+        value: 70,
     },
     {
         name: "AE",
@@ -61,19 +61,21 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "Graphic Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Creating visually appealing and effective designs for branding, marketing materials, logos, flyers, and more, tailored to meet client needs and communicate their message clearly.",
     },
     {
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Designing intuitive and user-friendly interfaces for websites and apps that enhance user experience, focusing on usability, aesthetics, and seamless interaction.",
     },
     {
         title: "Animations",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Developing engaging animations for digital platforms that bring static visuals to life, enhance storytelling, and capture audience attention through motion graphics.",
     },
 ];
+
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
