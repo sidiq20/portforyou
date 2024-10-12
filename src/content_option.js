@@ -1,165 +1,119 @@
 import images from './imageImports';
-const logotext = "FKAYY DESIGNS";
+
+const logotext = "Freelance Web Developer";
 const meta = {
-    title: "FKAYY DESIGNES",
-    description: "I’m Faruk Olaosde Graphic Designer _ A Graphic Desiner,currently working in Lagos",
+    title: "Freelance Web Developer",
+    description: "I’m Jane Doe, a Web Developer specializing in modern, responsive websites.",
 };
 
 const introdata = {
-    title: "I’m Faruk Olasode",
+    title: "I’m Jane Doe",
     animated: {
-        first: "I make web designes",
-        second: "I make cool logos",
-        third: "I revive depixelated logos and flyers",
-        fourth: "I revive depixelated logos and flyers",
-
+        first: "I create stunning web designs",
+        second: "I develop responsive websites",
+        third: "I bring creative ideas to life",
     },
-    description: "The art and practice of planning and projecting visual content to communicate ideas and messages through typography, imagery, color, and layout.",
-    your_img_url: images['fkayy.jpg'],
+    description: "With a passion for web development, I specialize in creating visually appealing and functional websites.",
+    your_img_url: images['fkayy.jpg'],  // Placeholder image
 };
 
 const dataabout = {
-    title: "about about my self",
-    aboutme: "I am a graphic designer with a Law degree from Lagos State University. I specialize in creating unique logos, modern websites, and captivating visuals that communicate ideas effectively. I bring a blend of creativity and strategic thinking to every project, helping brands stand out.",
+    title: "About Me",
+    aboutme: "As a creative web developer, I bring a mix of design and technical skills to every project. My approach combines attention to detail and a passion for coding to deliver high-quality results.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "Lawaz ltd",
+
+const worktimeline = [
+    {
+        jobtitle: "Junior Developer",
+        where: "TechCorp Inc.",
+        date: "2021",
+    },
+    {
+        jobtitle: "Web Developer",
+        where: "Web Solutions Ltd.",
         date: "2020",
     },
     {
-        jobtitle: "Designer of year",
-        where: "Lagos State Univeristy",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
+        jobtitle: "Freelance Developer",
+        where: "Self-employed",
         date: "2019",
     },
 ];
 
-const skills = [{
-        name: "Adobe PhotoShop",
+const skills = [
+    {
+        name: "HTML & CSS",
         value: 90,
     },
     {
-        name: "CorelDraw",
+        name: "JavaScript",
         value: 85,
     },
     {
-        name: "Adobe Illustrator",
+        name: "React",
         value: 80,
     },
     {
-        name: "Figma",
-        value: 70,
+        name: "Node.js",
+        value: 75,
     },
     {
-        name: "AE",
-        value: 85,
+        name: "UI/UX Design",
+        value: 70,
     },
 ];
 
 const services = [
     {
-        title: "Graphic Design",
-        description: "Creating visually appealing and effective designs for branding, marketing materials, logos, flyers, and more, tailored to meet client needs and communicate their message clearly.",
+        title: "Web Development",
+        description: "Building responsive, user-friendly websites tailored to meet the needs of my clients.",
     },
     {
-        title: "UI & UX Design",
-        description: "Designing intuitive and user-friendly interfaces for websites and apps that enhance user experience, focusing on usability, aesthetics, and seamless interaction.",
+        title: "UI/UX Design",
+        description: "Designing intuitive and visually appealing user interfaces that provide an exceptional user experience.",
     },
     {
-        title: "Animations",
-        description: "Developing engaging animations for digital platforms that bring static visuals to life, enhance storytelling, and capture audience attention through motion graphics.",
+        title: "Consulting",
+        description: "Providing expert advice on how to improve web presence and enhance user engagement.",
     },
 ];
 
-
-const dataportfolio = [{
+const dataportfolio = [
+    {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "A minimalistic portfolio website.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "An e-commerce platform for modern shopping.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "A creative agency website showcasing services and projects.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "sidiqolasode@gmail.com",
-    YOUR_FONE: "08028861210",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "janedoe@example.com", // Placeholder email
+    YOUR_FONE: "+1234567890",          // Placeholder phone number
+    description: "Feel free to reach out for web development projects, collaborations, or consulting.",
+    YOUR_SERVICE_ID: "YOUR_SERVICE_ID",
+    YOUR_TEMPLATE_ID: "YOUR_TEMPLATE_ID",
+    YOUR_USER_ID: "YOUR_USER_ID",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    instagram: "https://www.instagram.com/fkayythedesigner/",
-    twitch: "https://twitch.com",
-
+    github: "https://github.com/janedoe",  // Placeholder GitHub
+    facebook: "https://facebook.com/janedoe",  // Placeholder Facebook
+    linkedin: "https://linkedin.com/in/janedoe",  // Placeholder LinkedIn
+    twitter: "https://twitter.com/janedoe",  // Placeholder Twitter
+    instagram: "https://www.instagram.com/janedoe",  // Placeholder Instagram
+    twitch: "https://twitch.com/janedoe",  // Placeholder Twitch
 };
+
 export {
     meta,
     dataabout,
